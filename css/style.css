@@ -1,33 +1,79 @@
-.header{
-    background-color: black;
+.header {
+    background-color: #1a1a2e;
     color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.nav {
+    display: flex;
+    gap: 10px;
+    background-color: #8b0000;
+    padding: 10px 20px;
     align-items: center;
 }
 
-.nav{
-    display: flex;
-    gap: 20px;
-    background-color: red;
-    align-items: center;
+.nav-item {
+    color: #f1c40f;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-weight: bold;
 }
 
-.main{
+.nav-item:hover {
+    background-color: #c0392b;
+    color: white;
+}
+
+.main {
     display: flex;
-    
+}
+
+.section {
+    flex: 3;
+    background-image: url('../imagen/Site-community-image.webp');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.aside {
+    flex: 1;
+    background-color: #2c2c2c;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
 }
 
 .article {
-    align-items: self-end;
+    background-color: #c0392b;
+    color: white;
+    padding: 20px;
+}
+
+.article:hover {
     box-shadow: 10px 10px 20px black;
 }
 
 .footer {
     text-align: center;
-    padding: 10px;
-    background-color: #f1f1f1;
-    color: #333;
+    padding: 15px;
+    color: white;
 }
 
-.hover-effect {
-    box-shadow: 10px 10px 20px black;
+.footer-dark {
+    background-color: #2c3e50;
+}
+
+.footer-red {
+    background-color: #c0392b;
 }
