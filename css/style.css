@@ -1,0 +1,33 @@
+.header{
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    gap: 20px;
+    background-color: red;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    
+}
+
+.article {
+    align-items: self-end;
+    box-shadow: 10px 10px 20px black;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+.hover-effect {
+    box-shadow: 10px 10px 20px black;
+}
